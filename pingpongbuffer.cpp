@@ -1,6 +1,6 @@
 #include <cstring>
 #include <cstdint>
-#include "ping_pong_buffer.h"
+#include "ping_pong_buffer.hpp"
 
 int ppbuf_insert_active(ppbuf_t *p, void *data, int size) 
 {
